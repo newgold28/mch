@@ -1,0 +1,268 @@
+<!Doctype html>
+<html class="!scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+
+</head>
+<body>
+   <!--Nav/hero-sec-->
+   <div class="loader"></div>
+  <div class=" content 2xl (1536px)  min-h-screen bg-[url('images/hero-img.png')] bg-center bg-cover px-8 lg:px-28 py-5 lg:py-10">
+    <nav class= "text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+              <div class="flex items-center">
+                  <img src="images/Logo (7).png" alt="Logo" class="w-32 cursor-pointer">
+              </div>
+              <div class="-mr-2 flex md:hidden">
+                  <button  id="menu-toggle" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                      </svg>
+                  </button>
+              </div>
+              <div class="hidden md:block">
+                  <div class="ml-10 flex items-baseline space-x-4">
+                      <a href="/index.html" class="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                      <a href="#about" class="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">About Us</a>
+                      <a href="#pro" class="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">Process</a>
+                      <a href="#temo" class="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">Testimoni</a>
+                  </div>
+              </div>
+              <button data-target="con" class="hidden md:inline-block bg-white bg-opacity-20 backdrop-blur-lg border border-white/30 text-white px-4 lg:px-6 py-2 rounded-xl text-sm lg:text-lg shadow-lg hover:bg-opacity-30">
+                  Contact Us
+              </button>
+          </div>
+      </div>
+
+      <div id="menu" class="md:hidden hidden">
+          <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <a href="/index.html" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700">Home</a>
+              <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700">About Us</a>
+              <a href="#pro" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700">process</a>
+              <a href="#temo" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700">Testimoni</a>
+              <button class="w-full bg-white bg-opacity-20 backdrop-blur-lg border border-white/30 text-white px-4 py-2 rounded-xl text-base shadow-lg hover:bg-opacity-30">
+                  Contact Us
+              </button>
+          </div>
+      </div>
+  </nav>
+    <div class="text-white mt-20 flex flex-col">
+      <h1 class="text-4xl lg:text-7xl leading-relaxed mb-3 font-Inter font-bold text-center lg:text-left">Innovative Solutions for <br> Unmatched Business <br> Visibility</h1>
+      <p class="text-base lg:text-xl mb-8 lg:mb-14 font-AnonymousPro font-thin text-center lg:text-left">At Miracle’s Creative Hub, we empower <br> businesses with cutting-edge programming and <br> marketing solutions tailored to elevate your <br> brand. Our mission is simple: to make your <br> business stand out in a crowded digital world.</p>
+        <button data-target="con" class=" bg-white bg-opacity-20 backdrop-blur-lg border border-white/30 text-white px-6 lg:px-8 py-2 lg:py-3 rounded-xl lg:w-52  lg:rounded-2xl text-base lg:text-2xl shadow-lg hover:bg-opacity-30">
+          content us
+        </button>
+      </div>
+      
+    </div>
+  </div>
+
+  <!--what we offer-sec-->
+  <div id="about" class=" py-5 lg:py-10 reveal">
+    <div class="flex mb-28 px-8 lg:px-28 font-bold">
+      <h2 class="text-4xl lg:text-8xl ">What We Offer
+        <br>For you</h2>
+        
+    </div>
+    
+    <div class="space-y-12">
+      <div class="bg-gray-300 py-5 px-8 lg:px-28" data-aos="fade-left">
+
+        <img class="mb-10 animate-spin" src="images/Gr-1.png" alt="">
+        <div class="flex flex-col lg:flex-row lg:space-x-10 items-center lg:items-star">
+  
+          <div>
+            <h3 class="text-2xl lg:text-5xl mb-4">Programming Services</h3>
+          </div>
+          <div class="text-center lg:text-left">
+            <p class="font-AnonymousPro font-thin text-sm lg:text-1xl leading-6 lg:w-80 lg:leading-5">Turn your ideas into reality with custom tech solutions designed to meet your business needs. From website development to software applications, our team ensures seamless functionality and scalability. <br>
+              •	Responsive Website Development <br>
+              •	E-commerce Solutions <br>
+              •	Mobile App Development <br>
+              •	Custom Software Design <br>
+            </p>
+          </div>
+          <div>
+            <img class="mt-6 lg:mt-0" src="images/Frame 2 (1).png" alt="">
+          </div>
+      </div>
+      
+        </div>
+        <div class="bg-gray-300 py-5 px-8 lg:px-28 ">
+
+          <img class="mb-10 animate-spin" src="images/Gr-1 (1).png" alt="">
+          <div class="flex flex-col lg:flex-row lg:space-x-10 items-center lg:items-star">
+    
+            <div>
+              <h3 class="text-2xl lg:text-5xl mb-4">Marketing Services</h3>
+            </div>
+            <div class="text-center lg:text-left">
+              <p class="font-AnonymousPro font-thin text-sm lg:text-1xl leading-6 lg:w-80 lg:leading-5">Amplify your brand’s reach with innovative marketing strategies that resonate with your audience. We combine creativity with data-driven insights to deliver impactful campaigns. <br>
+                •	Social Media Management <br>
+                •	Digital Advertising <br>
+                •	Content Creation <br>
+                •	Brand Strategy <br>
+              </p>
+            </div>
+            <div>
+              <img class="mt-6 lg:mt-0" src="images/Frame 3.png" alt="">
+            </div>
+        </div>
+        
+          </div>
+      </div>
+    </div>
+  <!--Why Choose Us-sec-->
+  <div id="why"  class="bg-black reveal">
+    <div class="py-5 px-8 lg:px-28  text-white  space-y-12">
+      <h2 class="text-4xl lg:text-8xl font-bold lg:text-left sm:text-left text-center">Why Choose Us?</h2>
+      <p class="text-1xl lg:text-3xl font-AnonymousPro font-thin ">•	Tech-Driven Approach: Harness the power of technology to achieve your business goals.</p>
+      <p class="text-1xl lg:text-3xl font-AnonymousPro font-thin">•	Creative Excellence: We merge creativity with functionality to deliver outstanding results.</p>
+      <p class="text-1xl lg:text-3xl font-AnonymousPro font-thin">•	Tailored Solutions: Every project is customized to suit your unique vision and objectives.</p>
+      <p class="text-1xl lg:text-3xl font-AnonymousPro font-thin">•	Results-Oriented: We focus on measurable outcomes that contribute to your success.</p>
+    </div>
+  </div>
+  <!--What Our Clients Say-->
+  <div id="temo" class="py-5 px-8 lg:px-28 reveal">
+    <div class="text-center">
+      <h2 class="text-4xl lg:text-8xl pt-20 pb-20 font-bold">What Our Clients Say</h2> 
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-4 bg-gray-300 px-28 py-10 rounded-3xl">
+      <div>
+        <img src="images/User_circle.png">
+        <p class="font-AnonymousPro font-thin">“Miracle’s Creative Hub <br> transformed our social media <br> game! We’ve seen a huge increase <br> in followers and engagement, and <br> our business is thriving because <br> of it.”</p>
+        <p class="text-2xl pt-7 pb-2"> Alex R.,</p>
+        <p class="font-AnonymousPro font-thin">Founder of <br> Style Studio</p>
+      </div>
+      <div>
+        <img src="images/User_circle.png">
+        <p class="font-AnonymousPro font-thin">“Their programming team developed <br> a flawless e-commerce platform <br> for our brand, while the <br> marketing team helped us triple <br> our online sales in just three <br> months!”</p>
+        <p class="text-2xl pt-7 pb-2"> James T.,</p>
+        <p class="font-AnonymousPro font-thin">Founder of <br> Trendy Goods</p>
+      </div>
+      <div>
+        <img src="images/User_circle.png">
+        <p class="font-AnonymousPro font-thin">“The social media management team <br> is fantastic! They completely <br>
+          revamped our Instagram and <br> Facebook, and the results speak <br> for themselves.”</p>
+        <p class="text-2xl pt-7 pb-2"> Megan L.,</p>
+        <p class="font-AnonymousPro font-thin"> Owner of Pet <br> Paradise</p>
+      </div>
+    </div>
+  </div>
+  <!--Our Process-->
+  <div id="pro" class="bg-black py-5 px-8 lg:px-28 reveal">
+    <div class="text-center text-white">
+      <h2 class="text-4xl lg:text-8xl pt-20 pb-20 font-bold">Our Process</h2>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 pb-20">
+      <div class="bg-white text-center px-6 py-10 rounded-3xl">
+        <h3 class="text-3xl lg:text-5xl pb-4 lg:pb-7">Step 1</h3>
+        <p class="text-2xl lg:text-3xl font-AnonymousPro font-thin">Understanding Your Vision We begin by  understanding your  
+          business goals and  challenges.</p>
+      </div>
+      <div class="bg-white text-center px-6 py-10 rounded-3xl">
+        <h3 class="text-3xl lg:text-5xl pb-4 lg:pb-7">Step 2</h3>
+        <p class="text-2xl lg:text-3xl font-AnonymousPro font-thin">Designing a Customized  SolutionOur team  crafts innovative  
+          strategies tailored  to your needs.</p>
+      </div>
+      <div class="bg-white text-center px-6 py-10 rounded-3xl">
+        <h3 class="text-3xl lg:text-5xl pb-4 lg:pb-7">Step 3</h3>
+        <p class="text-2xl lg:text-3xl font-AnonymousPro font-thin">Delivering  Excellence From  concept to  
+          execution, we ensure timely and flawless  delivery</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <!--Partner With Us-->
+  <div class="text-center py-10 lg:py-32 px-8 lg:px-28 bg-[url('images/pu-sec.png')] bg-center bg-cover text-white reveal">
+    <h2 class="text-4xl lg:text-8xl  pb-14 lg:pb-20 font-bold ">Partner With Us</h2>
+    <p class="text-2xl lg:text-4xl font-AnonymousPro font-thin">Are you ready to take your business to the  <br> next level? Let Miracle’s Creative Hub guide  your journey with innovative programming and  marketing solutions.
+
+    </p>
+  </div>
+  <!--con us-sec-->
+  <div>
+    <div id="con" class="mb-20 py-6 text-center bg-slate-400 reveal">
+      <h2 class="text-4xl lg:text-8xl text-white font-bold">Get in touch with us </h2>
+    </div>
+    <div class="flex flex-col items-center text-center">
+      <img class="w-10 lg:w-32 pb-10" src="images/Subtract (1).png" alt="">
+      <p class=" text-3xl sm:text-4xl lg:text-5xl pb-12 font-AnonymousPro font-thin"> <a href="">Info@miraclescreativehub.ng</a></p>
+      <img class="w-10 lg:w-32 pb-10" src="images/Vector 189.png" alt="">
+      <p class="text-3xl sm:text-4xl lg:text-5xl pb-12 font-AnonymousPro font-thin"><a href="#">+234000000000000</a></p>
+      <img class="w-16 lg:w-40 pb-10" src="images/Compass_fill.png" alt="">
+      <p class="text-2xl sm:text-4xl lg:text-5xl font-AnonymousPro font-thin">8 ifesowapo street, Akure, <br>Ondo</p>
+    </div>
+    <div class="bg-slate-400 flex justify-center py-6 mt-10">
+      <div class="border-white border-2 flex py-3 px-10 space-x-12 lg:space-x-20">
+       <a href=""><img class="w-16" src="images/linkedin 1.png" alt=""></a> 
+       <a href=""><img class="w-16" src="images/facebook 1.png" alt=""></a> 
+        <a href=""><img class="w-16" src="images/whatsapp 1.png" alt=""></a>
+        <a href=""><img class="w-16" src="images/instagram 1.png" alt=""></a>
+       <a href=""><img class="w-16" src="images/twitter 1.png" alt=""></a> 
+      </div>
+    </div>
+  </div>
+  <!--Fotter-->
+  <div class="bg-black px-8 lg:px-28 py-10 lg:py-20 grid grid-cols-1 lg:grid-cols-2 gap-10 reveal">
+    <div class="flex flex-col justify-center items-center   text-center  lg:text-left ">
+      <img  src="images/Logo (7).png" class="w-40 lg:w-60 cursor-pointer mb-6 animate-spin">
+      <p class="text-white text-sm  lg:text-2xl font-AnonymousPro font-thin">Miracle’s Creative Hub was created to make your business stand out in a crowded digital world.</p>
+    </div>
+    <div class="text-white text-center">
+      <ul class="flex justify-center  pb-6 lg:pb-14">
+        <li class="list-none px-3 lg:px-5"><a href="/index.html" class="no-underline text-white text-sm lg:text-lg font-semibold hover:text-gray-400">Home</a></li>
+        <li class="list-none px-3 lg:px-5"><a href="#about" class="no-underline text-white text-sm lg:text-lg font-semibold hover:text-gray-400">About Us</a></li>
+        <li class="list-none px-3 lg:px-5"><a href="#pro" class="no-underline text-white text-sm lg:text-lg font-semibold hover:text-gray-400">Process</a></li>
+        <li class="list-none px-3 lg:px-5"><a href="#temo" class="no-underline text-white text-sm lg:text-lg font-semibold hover:text-gray-400">Testimoni</a></li>
+      </ul>
+      <p class="text-sm  lg:text-4xl pb-4 lg:pb-12  font-AnonymousPro font-thin"><a href="#">Info@miraclescreativehub. <br> ng</a></p>
+      <p class="text-sm lg:text-3xl pb-4 lg:pb-12  font-AnonymousPro font-thin"><a  href="#">+234000000000000</a></p>
+      <p class="text-sm lg:text-4xl pb-6 lg:pb-14 font-AnonymousPro font-thin">8 Ifesowapo Street, Akure, Ondo</p>
+    </div>
+  </div>
+  
+</body>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          Inter: ['Inter', 'serif'],
+        },
+        fontFamily:{
+          AnonymousPro: [ 'Anonymous Pro', 'serif']
+        }
+      },
+    },
+  };
+
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('hidden');
+        });
+
+        ScrollReveal().reveal('.reveal', {
+    distance: '50px',
+    origin: 'bottom',
+    duration: 1000,
+    delay: 200,
+    easing: 'ease-in-out',
+    reset: true, // Animations will play every time the element scrolls into view
+  });
+
+  
+</script>
+
+
+</html>
